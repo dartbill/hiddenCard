@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./code.js"></script>
+    <title>Greeting card</title>
+</head>
+
+<body>
+<h1>Greeting Card</h1> 
+
+<form class="container">
+    <label for="greeting">Add greeting here:</label>
+    <input type="text" name="greeting" id="greeting">
+
+    <label for="birthday">Birthday</label>
+    <input type="radio" name="event" id="birthday">
+
+    <label for="christmas">Christmas</label>
+    <input type="radio" name="event" id="christmas">
+
+    <label for="anniversary">Anniversary</label>
+    <input type="radio" name="event" id="anniversary">
+    <br>
+    <label for="message">Add your message here:</label>
+    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+    <input type="submit" value="Create Card">
+    
+</form>
+
+<div class="container" style="display: none;">
+    <h1 id="cardTitle">happy ---</h1>
+    <h2>greeting</h2>
+
+    <p>message of love</p>
+</div>
+</body>
+</html>

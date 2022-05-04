@@ -1,0 +1,17 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    text-align: center;
+    width: 300px;
+    height: auto;
+    margin: auto;
+}
+
+div{
+    text-align: center;
+    padding-top: 100px
+}
